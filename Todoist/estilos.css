@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Contenido{
+    display: block;
+    height: 20px;
+    width: 175px;
+    padding: 3px 3px 3px 3px;
+    margin: 20px auto;
+}
+
+#AddTask{
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    width: 50px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+#TaskContainer li{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    border: solid;
+    border-color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.CompletedTask{
+    text-decoration: line-through;
+}
