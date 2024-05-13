@@ -3,36 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: black;
+        }
+
+        img{
+            display: block;
+            height: 200px;
+            border-radius: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        #title{
+            display: block;
+            color: white;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+        }
+
+        #subtitle{
+            color: white;
+            font-size: 25px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #presentation{
+            color: black;
+            font-family: arial;
+            margin-left: 20px;
+            font-size: 20px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 15px;
+            height: fit-content;
+            width: fit-content;
+            max-width: 450px;
+        }
+
+        #my-proyects{
+            color: rgb(255, 255, 255);
+            font-family: arial;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+
+        .proyects{
+            display: block;
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 30px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+        }
+
+        .proyects p{
+            display: block;
+            margin-top: 40px;
+            font-family: arial;
+        }
+
+        .container{
+            display: block;
+            width: fit-content;
+            height: fit-content;
+            max-width: 500px;
+        }
+    </style>
+
     <title>Inicio</title>
 </head>
 <body>
     
     <img src="imagenes/Captura de pantalla 2024-05-11 225616.png" class="profile">
 
-    <h1 id="title">
+    <p id="title">
         My personal website
-    </h1>
-
-    <h2 id="subtitle">
-        Who i am?
-    </h2>
-
-    <p id="presentation">
-        Im a university student, i program for fun and hobbye, <br>
-        i make a little proyects, i program in python, javascript, <br>
-        front end web
     </p>
 
-    <h2 id="my-proyects">
-        My proyects:
-    </h2>
+    <p id="subtitle">
+        Who i am?
+    </p>
 
-    <a href="Todoist/index.html">
-        <div class="proyects">
-            <p>Todoist</p>
-        </div>
-    </a>
+    <p id="presentation">
+        My name is Sebastian, im a university student, i program for fun and hobbye,
+        i make a little proyects, i program in python, javascript,
+        front end web and other lenguajes i am learning.
+    </p>
+
+    <p id="my-proyects">
+        My proyects:
+    </p>
+        
+        
+
+    <div class="container">
+        <a href="Todoist/index.html">
+            <div class="proyects">
+                <p>Todoist</p>
+            </div>
+        </a>
+    </div>
 
 </body>
 </html>
